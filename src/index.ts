@@ -1,7 +1,7 @@
 import "reflect-metadata"
 import Koa from 'koa';
 import Router from '@koa/router';
-import { Entity, PrimaryGeneratedColumn, Column, DataSourceOptions, createConnection, DataSource } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, DataSourceOptions, DataSource } from 'typeorm';
 import path from 'path';
 
 const app = new Koa();
