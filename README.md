@@ -23,11 +23,12 @@ Book fields:
 - **releaseDate**
 
 ### Extras (optional)
-* Add pagination (pagination) - getting a portion of books (for example, 10 books per page) through the query parameter take and skip. For example /books?take=10&skip=20 to get ten books starting from 21.
-* Add sorting when receiving books. In the GET request for /books, add the query parameter sort to be able to sort by all books. Example GET /books?sort=name:asc,author:desc
+* Separate logic parts in different files - **routes**, **controllers**, **services**, **models**, etc. Decide what is the best for you.
+* Add pagination (pagination) - getting a portion of books (for example, 10 books per page) through the query parameter take and skip. For example **GET** `/books?take=10&skip=20` to get ten books starting from 21.
+* Add sorting when receiving books. In the GET request for /books, add the query parameter sort to be able to sort by all books. Example **GET** `/books?sort=name:asc,author:desc`.
 
 ## Info
-There are already premade server with one route (`src/index.ts`).
+There are already premade server with one route (`src/index.ts`) and database model.
 
 It’s **bad** practice to use [*any*](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any) or to not use types at all in typescript, so try to make typings for all your code.
 
