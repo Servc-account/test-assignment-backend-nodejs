@@ -12,7 +12,7 @@ class Message {
   @PrimaryGeneratedColumn()
   id!: number
 
-  @Column({})
+  @Column()
   text!: string
 }
 
