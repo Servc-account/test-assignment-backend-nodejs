@@ -23,7 +23,7 @@ Book fields:
 - **releaseDate**
 
 ### Extras (optional)
-* Separate logic parts in different files - **routes**, **controllers**, **services**, **models**, etc. Decide what is the best for you.
+* Separate logic parts in different files - **routes**, **controllers**, **services**, **models**, etc. Decide what will work best for you.
 * Add pagination (pagination) - getting a portion of books (for example, 10 books per page) through the query parameter take and skip. For example **GET** `/books?take=10&skip=20` to get ten books starting from 21.
 * Add sorting when receiving books. In the GET request for /books, add the query parameter sort to be able to sort by all books. Example **GET** `/books?sort=name:asc,author:desc`.
 
