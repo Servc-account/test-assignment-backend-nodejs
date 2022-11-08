@@ -32,8 +32,15 @@ const main = async () => {
   await db.initialize();
   console.log(`db - online`);
 
-  router.get('/', (ctx) => {
-    ctx.body = { sup: 'bitches' };
+  const message = new Message();
+  message.text = 'sub bitches';
+  await db.manager.save(message);
+  console.log(`seeds - online`);
+
+  router.get('/', async (ctx) => {
+    const repository = db.getRepository(Message)
+    const messages = await repository.find()
+    ctx.body = messages;
   });
 
   app.use(async (ctx, next) => {
