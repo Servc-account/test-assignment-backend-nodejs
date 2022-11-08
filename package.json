@@ -1,0 +1,19 @@
+{
+  "name": "test-assignment-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Test assignment for interns using NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Servc-account/test-assignment-backend-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Servc-account/test-assignment-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/Servc-account/test-assignment-backend-nodejs#readme"
+}
