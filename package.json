@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Servc-account/test-assignment-backend-nodejs/issues"
   },
-  "homepage": "https://github.com/Servc-account/test-assignment-backend-nodejs#readme"
+  "homepage": "https://github.com/Servc-account/test-assignment-backend-nodejs#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
