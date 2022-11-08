@@ -33,7 +33,9 @@ It’s **bad** practice to use [*any*](https://www.typescriptlang.org/docs/handb
 
 ## Useful Links
 
-Typescript interfaces to make nice typings - https://www.typescriptlang.org/docs/handbook/interfaces.html
+Typescript object types to make nice typings - https://www.typescriptlang.org/docs/handbook/2/objects.html
+
+TypeORM Entities docs - https://typeorm.io/entities
 
 ## Commands
 Start development server - `npm run dev`.
