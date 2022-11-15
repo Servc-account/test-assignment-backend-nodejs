@@ -16,7 +16,7 @@ Make a CRUD for a bookstore with 5 endpoints:
 The backend data exchange format is **JSON**.
 
 Book fields:
-- **uuid**
+- **id**
 - **name**
 - **isbn**
 - **author**
