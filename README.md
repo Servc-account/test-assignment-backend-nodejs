@@ -1,4 +1,4 @@
-# test-assignment-backend-nodejs
+# SerVC Test Assignment Backend NodeJS
 
 Just use this repository as a [**template**](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to generate repo in your account and make an assignment in it.
 
